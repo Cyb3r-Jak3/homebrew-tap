@@ -5,21 +5,21 @@
 class GoAwsConsole < Formula
   desc "Simple cli tool for opening the AWS console in your default browser."
   homepage "https://github.com/Cyb3r-Jak3/go-aws-console"
-  version "0.1.3-rc4"
+  version "0.1.3-rc5"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/Cyb3r-Jak3/go-aws-console/releases/download/v0.1.3-rc4/go-aws-console_0.1.3-rc4_darwin_amd64.tar.gz"
-      sha256 "c53a8832fff7e5d958ee2ab504b2d673e42bf35515c5625280d96166f256944f"
+      url "https://github.com/Cyb3r-Jak3/go-aws-console/releases/download/v0.1.3-rc5/go-aws-console_0.1.3-rc5_darwin_amd64.tar.gz"
+      sha256 "30b16dcbbd088010a7b55285dfc2d3ee138980634b0c8f30de23dc4c047a23e7"
 
       def install
         bin.install "go-aws-console"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/Cyb3r-Jak3/go-aws-console/releases/download/v0.1.3-rc4/go-aws-console_0.1.3-rc4_darwin_arm64.tar.gz"
-      sha256 "016b98cf88c8aafa6b3bfdc1dbd2ee38ead2a8964de4ce4954532b521a45a847"
+      url "https://github.com/Cyb3r-Jak3/go-aws-console/releases/download/v0.1.3-rc5/go-aws-console_0.1.3-rc5_darwin_arm64.tar.gz"
+      sha256 "97967e17fa0d04c634cbc59331e903a9d46fd4f53d744426a9bb32df9f0938ff"
 
       def install
         bin.install "go-aws-console"
@@ -30,8 +30,8 @@ class GoAwsConsole < Formula
   on_linux do
     if Hardware::CPU.intel?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/Cyb3r-Jak3/go-aws-console/releases/download/v0.1.3-rc4/go-aws-console_0.1.3-rc4_linux_amd64.tar.gz"
-        sha256 "d3183b505c12e43183016b6bafdb2d6e6094695de4348c6b23feddbb1244e5e2"
+        url "https://github.com/Cyb3r-Jak3/go-aws-console/releases/download/v0.1.3-rc5/go-aws-console_0.1.3-rc5_linux_amd64.tar.gz"
+        sha256 "88834c862952eb4f9cd4b21cf3b37708414b065af63e53cf79b25b5242272683"
 
         def install
           bin.install "go-aws-console"
@@ -40,8 +40,8 @@ class GoAwsConsole < Formula
     end
     if Hardware::CPU.arm?
       if !Hardware::CPU.is_64_bit?
-        url "https://github.com/Cyb3r-Jak3/go-aws-console/releases/download/v0.1.3-rc4/go-aws-console_0.1.3-rc4_linux_armv6.tar.gz"
-        sha256 "6d49696cf9b370e45258add76c8aa369d8e7c8fea73faa6b4d53fe26c002665b"
+        url "https://github.com/Cyb3r-Jak3/go-aws-console/releases/download/v0.1.3-rc5/go-aws-console_0.1.3-rc5_linux_armv6.tar.gz"
+        sha256 "ff5cb6207efa4e1a9e36074ba7d688d2586ad985cd565729d2e516669587d10e"
 
         def install
           bin.install "go-aws-console"
@@ -50,8 +50,8 @@ class GoAwsConsole < Formula
     end
     if Hardware::CPU.arm?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/Cyb3r-Jak3/go-aws-console/releases/download/v0.1.3-rc4/go-aws-console_0.1.3-rc4_linux_arm64.tar.gz"
-        sha256 "979132f83b14975e6470e224881d7b7e71ded5a61feaf67c2c28763781ee2a7a"
+        url "https://github.com/Cyb3r-Jak3/go-aws-console/releases/download/v0.1.3-rc5/go-aws-console_0.1.3-rc5_linux_arm64.tar.gz"
+        sha256 "23384d4c1d3f9820654e900e731fca5baff21ba9eef2a27c7b044db3aedc66f6"
 
         def install
           bin.install "go-aws-console"
