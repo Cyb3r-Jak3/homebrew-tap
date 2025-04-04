@@ -14,21 +14,21 @@ class CloudflareUtils < Formula
 Cloudflare and the Cloudflare logo are trademarks and/or registered trademarks of Cloudflare, Inc.
 "
   homepage "https://cloudflare-utils.cyberjake.xyz/"
-  version "1.3.5"
+  version "1.4.0-rc1"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/Cyb3r-Jak3/cloudflare-utils/releases/download/v1.3.5/cloudflare-utils_1.3.5_darwin_amd64.tar.xz"
-      sha256 "17fbe166f51a376ff7596a8b2164211d46ad35d25d1186dd4a7481504c423dfa"
+      url "https://github.com/Cyb3r-Jak3/cloudflare-utils/releases/download/v1.4.0-rc1/cloudflare-utils_1.4.0-rc1_darwin_amd64.tar.xz"
+      sha256 "dda4c4a884873cdf71479f4209aeaee21245edf7a7d39d6aa5557181dd4f9ac6"
 
       def install
         bin.install "cloudflare-utils"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/Cyb3r-Jak3/cloudflare-utils/releases/download/v1.3.5/cloudflare-utils_1.3.5_darwin_arm64.tar.xz"
-      sha256 "c4efdaadb1a67b35209b23941c07ed3ecc1cd972cade62fb0e1d5116e9732bbe"
+      url "https://github.com/Cyb3r-Jak3/cloudflare-utils/releases/download/v1.4.0-rc1/cloudflare-utils_1.4.0-rc1_darwin_arm64.tar.xz"
+      sha256 "dfb4d5da1b037513cb6df8abfe00bb433bd9f3d529ae75166ed5594f13e25a38"
 
       def install
         bin.install "cloudflare-utils"
@@ -39,8 +39,8 @@ Cloudflare and the Cloudflare logo are trademarks and/or registered trademarks o
   on_linux do
     if Hardware::CPU.intel?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/Cyb3r-Jak3/cloudflare-utils/releases/download/v1.3.5/cloudflare-utils_1.3.5_linux_amd64.tar.xz"
-        sha256 "e4ded65f1bf568340e2b0f0f4e37271df36956fee4bcbfa2dac11516b5f680e2"
+        url "https://github.com/Cyb3r-Jak3/cloudflare-utils/releases/download/v1.4.0-rc1/cloudflare-utils_1.4.0-rc1_linux_amd64.tar.xz"
+        sha256 "82dedc68d3eb8c53ee4792ad48a82c434ffc4fa393684d220815000d92db6240"
 
         def install
           bin.install "cloudflare-utils"
@@ -49,8 +49,8 @@ Cloudflare and the Cloudflare logo are trademarks and/or registered trademarks o
     end
     if Hardware::CPU.arm?
       if !Hardware::CPU.is_64_bit?
-        url "https://github.com/Cyb3r-Jak3/cloudflare-utils/releases/download/v1.3.5/cloudflare-utils_1.3.5_linux_armv6.tar.xz"
-        sha256 "2ea7d85da632a1ca386919d87bab7bea7999b5bdde8ecb12d405a193ec8b5fd3"
+        url "https://github.com/Cyb3r-Jak3/cloudflare-utils/releases/download/v1.4.0-rc1/cloudflare-utils_1.4.0-rc1_linux_armv6.tar.xz"
+        sha256 "84d3b3099a047c15d435eafaca349b0dc74d60f4e628b165747282175f9a616a"
 
         def install
           bin.install "cloudflare-utils"
@@ -59,8 +59,8 @@ Cloudflare and the Cloudflare logo are trademarks and/or registered trademarks o
     end
     if Hardware::CPU.arm?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/Cyb3r-Jak3/cloudflare-utils/releases/download/v1.3.5/cloudflare-utils_1.3.5_linux_arm64.tar.xz"
-        sha256 "46df4895c8c68adb20dfa3d9cc44cac722f8d9cc7a077faf4541b9fc1316a8d4"
+        url "https://github.com/Cyb3r-Jak3/cloudflare-utils/releases/download/v1.4.0-rc1/cloudflare-utils_1.4.0-rc1_linux_arm64.tar.xz"
+        sha256 "28fefce361b1d019dcafc301d46b04000ec78de8d1271bd57555eb4bffd3ff81"
 
         def install
           bin.install "cloudflare-utils"
