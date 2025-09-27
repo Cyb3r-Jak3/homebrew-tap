@@ -12,7 +12,7 @@ cask "cloudflare-utils" do
 Cloudflare and the Cloudflare logo are trademarks and/or registered trademarks of Cloudflare, Inc.
 "
   homepage "https://cloudflare-utils.cyberjake.xyz/"
-  version "1.5.0"
+  version "1.5.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -24,12 +24,12 @@ Cloudflare and the Cloudflare logo are trademarks and/or registered trademarks o
     on_intel do
       url "https://github.com/Cyb3r-Jak3/cloudflare-utils/releases/download/v#{version}/cloudflare-utils_#{version}_darwin_amd64.tar.xz",
         verified: "github.com/Cyb3r-Jak3/cloudflare-utils"
-      sha256 "d52bbd7b7cf20b605715191fe1b6d3b9ddf32282cd1ddc923dae9c76c38c0a5d"
+      sha256 "736bbbd9029290f39ff258222119ee998a34ab8d7676729df216fd679ab0eac8"
     end
     on_arm do
       url "https://github.com/Cyb3r-Jak3/cloudflare-utils/releases/download/v#{version}/cloudflare-utils_#{version}_darwin_arm64.tar.xz",
         verified: "github.com/Cyb3r-Jak3/cloudflare-utils"
-      sha256 "47a909fc9e7f97f6f431bb10c2086078b29386006a138f72c614bd5d4b403cab"
+      sha256 "ac12ae4730f24ff5763ca48f14b0614daa07c4f8ab28630f94e310764d8aed21"
     end
   end
 
@@ -37,12 +37,12 @@ Cloudflare and the Cloudflare logo are trademarks and/or registered trademarks o
     on_intel do
       url "https://github.com/Cyb3r-Jak3/cloudflare-utils/releases/download/v#{version}/cloudflare-utils_#{version}_linux_amd64.tar.xz",
         verified: "github.com/Cyb3r-Jak3/cloudflare-utils"
-      sha256 "1f61012a293b34049cf4ac731e755f337f91e3fb278981364d3f5ec4148edefa"
+      sha256 "b6bd52ed2e8886beee421f856256861bb5d24c22325cc961ca2a247779f1cce3"
     end
     on_arm do
       url "https://github.com/Cyb3r-Jak3/cloudflare-utils/releases/download/v#{version}/cloudflare-utils_#{version}_linux_arm64.tar.xz",
         verified: "github.com/Cyb3r-Jak3/cloudflare-utils"
-      sha256 "8d659c150e47ba34ef09b60cd355ff18e504fa3325a58f396f10ba0ac5a70f78"
+      sha256 "fa630fe9f24320b63b8d910f66e99793ac2b06a822bfa67cba61c86346187c96"
     end
   end
 
