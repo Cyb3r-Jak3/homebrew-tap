@@ -12,7 +12,7 @@ cask "cloudflare-utils" do
 Cloudflare and the Cloudflare logo are trademarks and/or registered trademarks of Cloudflare, Inc.
 "
   homepage "https://cloudflare-utils.cyberjake.xyz/"
-  version "1.5.1"
+  version "1.6.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -22,27 +22,27 @@ Cloudflare and the Cloudflare logo are trademarks and/or registered trademarks o
 
   on_macos do
     on_intel do
-      url "https://github.com/Cyb3r-Jak3/cloudflare-utils/releases/download/v#{version}/cloudflare-utils_#{version}_darwin_amd64.tar.xz",
+      url "https://github.com/Cyb3r-Jak3/cloudflare-utils/releases/download/v#{version}/cloudflare-utils_darwin_amd64.tar.xz",
         verified: "github.com/Cyb3r-Jak3/cloudflare-utils"
-      sha256 "736bbbd9029290f39ff258222119ee998a34ab8d7676729df216fd679ab0eac8"
+      sha256 "cedb910cbdedcd375d89907f7153945d669dafb0f7545a9036ca7c650eb6decf"
     end
     on_arm do
-      url "https://github.com/Cyb3r-Jak3/cloudflare-utils/releases/download/v#{version}/cloudflare-utils_#{version}_darwin_arm64.tar.xz",
+      url "https://github.com/Cyb3r-Jak3/cloudflare-utils/releases/download/v#{version}/cloudflare-utils_darwin_arm64.tar.xz",
         verified: "github.com/Cyb3r-Jak3/cloudflare-utils"
-      sha256 "ac12ae4730f24ff5763ca48f14b0614daa07c4f8ab28630f94e310764d8aed21"
+      sha256 "7934864614aeee0b3c8ae3543535a627075db07bdc20fbec5d1ddb071735c46a"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Cyb3r-Jak3/cloudflare-utils/releases/download/v#{version}/cloudflare-utils_#{version}_linux_amd64.tar.xz",
+      url "https://github.com/Cyb3r-Jak3/cloudflare-utils/releases/download/v#{version}/cloudflare-utils_linux_amd64.tar.xz",
         verified: "github.com/Cyb3r-Jak3/cloudflare-utils"
-      sha256 "b6bd52ed2e8886beee421f856256861bb5d24c22325cc961ca2a247779f1cce3"
+      sha256 "f3d6c29fad46a3967fb4d44123c42be41123b2c2481458f4de13dd772bdd2b14"
     end
     on_arm do
-      url "https://github.com/Cyb3r-Jak3/cloudflare-utils/releases/download/v#{version}/cloudflare-utils_#{version}_linux_arm64.tar.xz",
+      url "https://github.com/Cyb3r-Jak3/cloudflare-utils/releases/download/v#{version}/cloudflare-utils_linux_arm64.tar.xz",
         verified: "github.com/Cyb3r-Jak3/cloudflare-utils"
-      sha256 "fa630fe9f24320b63b8d910f66e99793ac2b06a822bfa67cba61c86346187c96"
+      sha256 "f6f15ea3b3fda4719f2306010ed6469bfb8cbcf73b28be4a64094701f348e6a4"
     end
   end
 
