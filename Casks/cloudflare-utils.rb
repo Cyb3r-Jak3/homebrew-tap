@@ -12,7 +12,7 @@ cask "cloudflare-utils" do
 Cloudflare and the Cloudflare logo are trademarks and/or registered trademarks of Cloudflare, Inc.
 "
   homepage "https://cloudflare-utils.cyberjake.xyz/"
-  version "1.6.0"
+  version "1.6.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -24,12 +24,12 @@ Cloudflare and the Cloudflare logo are trademarks and/or registered trademarks o
     on_intel do
       url "https://github.com/Cyb3r-Jak3/cloudflare-utils/releases/download/v#{version}/cloudflare-utils_darwin_amd64.tar.xz",
         verified: "github.com/Cyb3r-Jak3/cloudflare-utils"
-      sha256 "cedb910cbdedcd375d89907f7153945d669dafb0f7545a9036ca7c650eb6decf"
+      sha256 "9604de964e140a157afaa1efe4994c89c936cdbeaee7a8e65b6561fd5a1609f0"
     end
     on_arm do
       url "https://github.com/Cyb3r-Jak3/cloudflare-utils/releases/download/v#{version}/cloudflare-utils_darwin_arm64.tar.xz",
         verified: "github.com/Cyb3r-Jak3/cloudflare-utils"
-      sha256 "7934864614aeee0b3c8ae3543535a627075db07bdc20fbec5d1ddb071735c46a"
+      sha256 "1e17ba4efe063db18159dcff2d7d90350da9de52f44f1ad061068417e3459aca"
     end
   end
 
@@ -37,12 +37,12 @@ Cloudflare and the Cloudflare logo are trademarks and/or registered trademarks o
     on_intel do
       url "https://github.com/Cyb3r-Jak3/cloudflare-utils/releases/download/v#{version}/cloudflare-utils_linux_amd64.tar.xz",
         verified: "github.com/Cyb3r-Jak3/cloudflare-utils"
-      sha256 "f3d6c29fad46a3967fb4d44123c42be41123b2c2481458f4de13dd772bdd2b14"
+      sha256 "5b603b26fde6abd785cc251fcdd69b4d829b5cb8430f171791a4c541cb837919"
     end
     on_arm do
       url "https://github.com/Cyb3r-Jak3/cloudflare-utils/releases/download/v#{version}/cloudflare-utils_linux_arm64.tar.xz",
         verified: "github.com/Cyb3r-Jak3/cloudflare-utils"
-      sha256 "f6f15ea3b3fda4719f2306010ed6469bfb8cbcf73b28be4a64094701f348e6a4"
+      sha256 "d65795b14212fd2ecadf2198ad5b529aa181be78eb7cface1b233a0783855359"
     end
   end
 
